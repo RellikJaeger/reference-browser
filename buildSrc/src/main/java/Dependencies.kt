@@ -24,12 +24,13 @@ private object Versions {
     const val thirdparty_sentry = "1.7.10"
 
     const val espresso_core = "3.1.0"
-    const val espresso_version = "3.1.0"
+    const val espresso_version = "3.4.0"
     const val mockwebserver = "4.9.0"
-    const val orchestrator = "1.1.1"
+    const val orchestrator = "1.4.1"
     const val tools_test_rules = "1.1.0"
-    const val tools_test_runner = "1.1.0"
+    const val tools_test_runner = "1.4.0"
     const val uiautomator = "2.2.0"
+    const val junit_ktx = "1.1.3"
 
     const val compose_version = "1.0.0-rc02"
 
@@ -149,4 +150,5 @@ object Deps {
     const val tools_test_rules = "androidx.test:rules:${Versions.tools_test_rules}"
     const val tools_test_runner = "androidx.test:runner:${Versions.tools_test_runner}"
     const val uiautomator = "androidx.test.uiautomator:uiautomator:${Versions.uiautomator}"
+    const val junit_ktx = "androidx.test.ext:junit-ktx:${Versions.junit_ktx}"
 }
